@@ -1,0 +1,24 @@
+{
+  "name": "c4rv4lh098/phptips001",
+  "description": "Abstração de Banco de Dados com Data Layer | PHP Tips #002",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo M. Carvalho",
+      "email": "rodrigo.carvalho.1998@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.8"
+  }
+}
